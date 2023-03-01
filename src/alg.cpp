@@ -36,12 +36,12 @@ uint64_t nextPrime(uint64_t value) {
 }
 
 uint64_t sumPrime(uint64_t hbound) {
-	uint64_t summa = 0;
-	for (int a = 2; a < hbound; a++) {
-		if (checkPrime(a)) {
-			summa += a;
-		}
-	}
-	return summa;
+  uint64_t summa = 0;
+  for (int a = 2; a < hbound; a++) {
+    if (checkPrime(a)) {
+      summa += a;
+    }
+  }
+  return summa;
 }
 
